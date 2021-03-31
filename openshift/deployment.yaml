@@ -18,7 +18,7 @@ spec:
     spec:
       containers:
       - name: cloudnativesampleapp
-        image: ibmcase/greeting:2
+        image: ibmcase/greeting:1
         imagePullPolicy: IfNotPresent
         ports:
           - containerPort: 9080
